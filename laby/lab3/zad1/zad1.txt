@@ -1,0 +1,18 @@
+Nieco inaczej zaprojektowałem program w porównaniu do przykładu na
+UPEL-u, bowiem przyjmuje on TRZY argumenty przy wywołaniu - plik
+wejściowy oraz dwa pliki wyjściowe, do pierwszego z nich zapisuję
+wynik działania pierwszego sposobu, tzn. bajt po bajcie a do drugiego
+z nich - drugiego sposobu, tzn. w blokach po 1024 bajtów (oba sposoby
+się wykonują w ramach jednego uruchomienia programu).
+
+W pliku `pomiar_zad_2.txt` są wyniki 5 uruchomień programu na pliku
+`longer_test`. Jak można zauważyć, przepisywanie w blokach daje 
+o wiele lepszy rezultat czasowy.
+
+Porównując odwrócenie odwróconego pliku z oryginałem, tzn. zastosowanie
+instrukcji `./reverse plik_binarny tmp1 tmp2; ./reverse tmp1 tmp2 tmp3;
+diff -s tmp2 plik_binarny` daje informację, że pliki są identyczne.
+Z kolei porównanie wyniku działania programu z rezultatem polecenia
+`tac < plik_wejściowy | rev > plik_wyjściowy` daje informację o różnych
+plikach: komenda ta raczej odwraca kolejność znaków w wierszu, ale kolejność
+wierszy zostaje taka sama.

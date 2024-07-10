@@ -1,0 +1,12 @@
+Aby wyświetlić zawartość plików binarnych, używam programu objdump z opcją `-t`,
+mianowicie `objdump -t main_static main_shared main_dynamic`. Program objdump ma
+wiele opcji, z którymi zapoznałem się poprzez `man objdump` i wyszukując w internecie,
+natomiast ta wydawała mi się najbliższa wskazanemu w poleceniu użyciu.
+
+W przypadku programu `main_static` w kodzie binarnym znajdują się wywołania zarówno
+`collatz_conjecture` jak i `test_collatz_convergence`.
+W przypadku programu `main shared` w kodzie binarnym znajduje się jedynie wywołanie
+`test_collatz_convergence`.
+Z kolei w przypadku programu `main_dynamic` w kodzie binarnym nie widać bezpośrednio
+wywołania funkcji `test_collatz_convergence`, natomiast poprzez funkcje dlopen i dlsym
+w tabeli symboli znajduje się wywołanie dlsym@GLIBC_2.34, które odnosi się do tej funkcji.

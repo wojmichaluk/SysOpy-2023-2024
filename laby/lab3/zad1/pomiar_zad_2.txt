@@ -1,0 +1,20 @@
+Uruchomienie programu
+Znak po znaku: 0.003415s
+W blokach po 1024 znaki: 0.000019s
+
+Uruchomienie programu
+Znak po znaku: 0.002013s
+W blokach po 1024 znaki: 0.000011s
+
+Uruchomienie programu
+Znak po znaku: 0.002052s
+W blokach po 1024 znaki: 0.000012s
+
+Uruchomienie programu
+Znak po znaku: 0.003515s
+W blokach po 1024 znaki: 0.000029s
+
+Uruchomienie programu
+Znak po znaku: 0.003253s
+W blokach po 1024 znaki: 0.000019s
+

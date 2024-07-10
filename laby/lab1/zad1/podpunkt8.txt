@@ -1,0 +1,13 @@
+Używam Visual Studio Code jako IDE. Aby je skonfigurować do współpracy z Makefile
+i umożliwić uruchamianie programów napisanych w języku C, zainstalowałem rozszerzenia
+ C/C++ IntelliSense, C/C++ Build Task, CMake, CMake Tools i MakeFile Tools.
+Po uruchomieniu programu w trybie Debug postepuję następująco:
+1. Program automatycznie zatrzymuje się na breakpoincie.
+2. Aby podejrzeć aktualny indeks pętli, w zakładce `Watch` klikam symbol `+` i wpisuję `i`.
+3. Aby kontynuować wykonywanie programu, mogę z panelu debugowania wybrać `Step Over` - 
+przejście do następnej instrukcji lub `Continue` - przejście do następnego breakpointa.
+4. Aby wypisać kolejny indeks, wybieram z panelu debugowania `Continue` - każde przejście
+do breakpointa powoduje wypisanie kolejnego indeksu pętli.
+5. Aby usunąć breakpoint, klikam w miejsce, gdzie go uprzednio zaznaczyłem.
+6. Jeżeli usuwam breakpoint w trakcie wykonywania programu, mogę wybrać z panelu debugowania
+`Continue` - wtedy program zostanie kontynuowany aż do końca.

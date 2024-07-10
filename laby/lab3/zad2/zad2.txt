@@ -1,0 +1,3 @@
+Po napisaniu komendy `make all` i uruchomieniu programu otrzymuję
+takie same wyniki jak dla komendy `wc --bytes *` (format wypisywania
+jest nieco inny, ale wyniki dotyczące rozmiarów plików i nazw są identyczne).

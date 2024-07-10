@@ -1,0 +1,12 @@
+1. Aby powiązać gdb z programem, wpisuję `gdb contdown`.
+Nastepnie aby ustawić breakpoint wewnątrz pętli, wpisuję `break countdown.c:5`
+(5 to nr linii instrukcji w pętli).
+2. Wpisuję `run`, aby zacząć debugować program. Aby podejrzeć aktualny
+indeks pętli, wpisuję `print i`.
+3. Aby kontynuować wykonywanie programu, mogę wpisać `n` - przejście do następnej instrukcji
+lub `c` - przejście do następnego breakpointa.
+4. Aby wypisać kolejny indeks, wpisuję `c` - każde przejście do breakpointa powoduje
+wypisanie kolejnego indeksu pętli.
+5. Aby usunąć breakpoint, wpisuję `delete nr_breakpointa`, w tym przypadku `delete 1`.
+6. Jeżeli usuwam breakpoint w trakcie wykonywania programu, mogę wpisać
+`c` - wtedy program zostanie kontynuowany aż do końca.
