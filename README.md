@@ -1,7 +1,7 @@
 # SysOpy-2023-2024
 Repository for SysOpy (Systemy Operacyjne, Operating Systems) course at AGH University
 
-W katalogu **laby** znajdują się podkatalogi **lab*i*, i=1,2,...,12**, a każdy z tych podkatalogów zawiera plik *zadanie.pdf* z treścią zadania / zadań na dane laboratorium oraz folder / foldery z rozwiązaniami tych zadań, które zawierają pliki źródłowe `.c` oraz Makefile.
+W katalogu **laby** znajdują się podkatalogi **lab*i*, i=1,2,...,12**, a każdy z tych podkatalogów zawiera plik *zadanie.pdf* (jedynie w lab12 jest `.txt`) z treścią zadania / zadań na dane laboratorium oraz folder / foldery z rozwiązaniami tych zadań, które zawierają pliki źródłowe `.c`, `.h` oraz Makefile, a czasem także pliki `.txt` z odpowiedziami na pytania w poleceniu.
 
 Z kolei w katalogu **kolosy** znajdują się podkatalogi **kol1** oraz **kol2** odpowiadające poszczególnym kolokwiom. W każdym z tych podkatalogów znajdują się 3 foldery:
 - *Tasks*, zawierający oryginalne polecenia do zadań z kolokwium
