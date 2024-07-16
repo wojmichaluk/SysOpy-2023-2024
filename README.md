@@ -14,7 +14,7 @@ execvp("./calc", args);`
 powinno być
 `char* const calcParams[]={"./calc",argv[1],argv[2],argv[3],NULL};
 execv("./calc", calcParams);` 
-Na kolokwium 2. nie miałem żadnych błędów (albo przynajmniej nie zauważył ich sprawdzajacy).
+Na kolokwium 2. nie miałem żadnych błędów (albo przynajmniej nie zauważył ich sprawdzający).
 
 Moje rozwiązania zadań starałem się trzymać w prostej postaci, więc pewnie czasem można było je zrobić lepiej, ładniej - chociażby rozdzielając program na więcej plików, kiedy było dużo kodu, także moje Makefile są najprostsze możliwe - ot, żeby `make all` zbudowało to co trzeba i lecimy.
 Mimo wszystko powinny być w miarę poprawne, jedynie w labach 11. i 12. (z socketów) opcja "Keep Alive" miała dosłownie pingować a nie to dziwactwo co ja tam zrobiłem, ale mimo wszystko rozwiązania tych (i pozostałych) zadań dostały punkt.
